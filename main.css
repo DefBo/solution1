@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	background: #dddfe4;
+	padding: 15px 0;
+}
+
+a {
+	transition:  all 0.2s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	background: #fff;
+	max-width: 800px;
+}
+
+.advert__header {
+	padding: 25px 0 15px;
+	font-size: 0;
+}
+
+.advert__avatar {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin: 0 15px 0 0;
+}
+
+.advert__avatar img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.advert__title {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 600;
+	vertical-align: middle;
+	width: calc(100% - 100px);
+}
+
+.advert__title a {
+	color: #000;
+	text-decoration: none;
+}
+
+.advert__title a:hover {
+	text-decoration: underline;
+}
+
+.advert__sponsor {
+	color: #9198a5;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.advert__more {
+	float: right;
+	color: #8f959c !important;
+	font-size: 20px;
+}
+
+.advert__more:hover {
+	color: #000 !important;
+}
+
+.advert__bg {
+	width: calc(100% + 30px);
+	margin: 0 -15px;
+}
+
+.advert__bg img {
+	width: 100%;
+}
+
+.advert__description {
+	margin: 0 0 10px 0;
+}
+
+.advert__link {
+	font-size: 18px;
+	font-weight: 300;
+	color: #9198a5;
+}
+
+.advert__mainlink {
+	font-size: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+.advert__text a {
+	display: inline-block;
+	width:  100%;
+}
+
+.advert__text {
+	background: #f2f3f6;
+	padding: 15px 15px 20px;
+	margin: 0 -15px;
+}
+
+.advert__statistics {
+	padding: 15px 0;
+	border-bottom: 1px solid #dee0e3;
+}
+
+.advert__likes {
+	float: left;
+}
+
+.advert__shares {
+	margin: 0 0 0 15px;
+}
+
+.advert__comments, .advert__shares {
+	float: right;
+}
+
+.advert__likes, .advert__comments, .advert__shares {
+	color: #000;
+	opacity: 0.8;
+}
+
+.advert__likes:hover, .advert__comments:hover, .advert__shares:hover {
+	opacity: 1;
+	color: #000;
+}
+
+.advert__footer {
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.advert__like, .advert__share, .advert__comment {
+	color: #5f6771;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 500;
+	padding: 0 15px;
+}
+
+.advert__like:hover, .advert__share:hover, .advert__comment:hover {
+	background: #dee0e3;
+}
+
+.advert__statistics:after {
+	content: '';
+	display: table;
+	clear: both;
+}
